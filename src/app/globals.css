@@ -1,0 +1,143 @@
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+
+/* Sky Blue Themed Button with Shiny Animation */
+.frutiger-button {
+  cursor: pointer;
+  position: relative;
+  padding: 2px;
+  border-radius: 9999px; /* full rounded */
+  border: 0;
+  background: linear-gradient(#00c6ff, #0072ff); /* sky blue gradient */
+  box-shadow: 0px 4px 10px 0px rgba(0, 150, 255, 0.4);
+  transition: all 0.4s ease;
+}
+
+.frutiger-button:hover {
+  box-shadow: 0px 8px 16px rgba(0, 150, 255, 0.6);
+  transform: translateY(-2px);
+}
+
+.frutiger-button:active {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(0.98);
+}
+
+.inner {
+  position: relative;
+  inset: 0;
+  padding: 0.75em 2em;
+  border-radius: inherit;
+  background: radial-gradient(circle at 50% 100%, #66d9ff 15%, transparent 55%),
+    linear-gradient(#00c6ff, #0099ff);
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.inner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    -65deg,
+    transparent 40%,
+    #fff7 50%,
+    transparent 70%
+  );
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  animation: shine 3s ease infinite;
+}
+
+.text {
+  position: relative;
+  z-index: 1;
+  color: #fff; /* white text fits blue theme */
+  font-weight: 600;
+  font-size: 1rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+/* Add this in your global CSS or inside a <style> tag */
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.4s forwards;
+}
+
+/* Shine code */
+.shine {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shine::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.6) 50%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+  transform: skewX(-25deg);
+  animation: shineEffect 2s infinite;
+}
+
+@keyframes shineEffect {
+  0% {
+    left: -75%;
+  }
+  100% {
+    left: 125%;
+  }
+}
+
+/* Bounce Button class */
+/* ensure the shine overlay doesn't block hover */
+.shine::before {
+  pointer-events: none;
+}
+
+/* smooth, single bounce on hover */
+@keyframes bounceUpOnce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  45% {
+    transform: translateY(-8px);
+  }
+  70% {
+    transform: translateY(-4px);
+  }
+}
+
+.btn-bounce {
+  will-change: transform;
+  transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.btn-bounce:hover {
+  animation: bounceUpOnce 0.35s ease-out;
+}
+
+/* Cutom Code end */
