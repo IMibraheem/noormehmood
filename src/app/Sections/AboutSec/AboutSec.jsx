@@ -42,7 +42,7 @@ const About = () => {
           <div className="flex items-center gap-3 mt-6">
             <FaArrowRight className="text-cyan-500 text-xl" />
             <a
-              href="/Noor_Mehmood_CV.docx" // Place your CV in /public
+              href="/cv/Noor_Mehmood_CV.docx" // Place your CV in /public
               download
               className="flex items-center gap-2 bg-cyan-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-cyan-600 transition shine overflow-hidden"
             >

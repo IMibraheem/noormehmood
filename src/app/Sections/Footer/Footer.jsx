@@ -15,7 +15,6 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const handleWhatsAppClick = () => {
-    // Replace with your actual WhatsApp number (include country code without + or spaces)
     const phoneNumber = "923064002469"; // Example: Pakistan number
     const message =
       "Hello! I would like to inquire about your physiotherapy services.";
