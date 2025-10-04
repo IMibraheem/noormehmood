@@ -2,10 +2,25 @@
 import React from "react";
 import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
+  const handleWhatsAppClick = () => {
+    // Replace with your actual WhatsApp number (include country code without + or spaces)
+    const phoneNumber = "923064002469"; // Example: Pakistan number
+    const message =
+      "Hello! I would like to inquire about your physiotherapy services.";
+    window.open(
+      `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`,
+      "_blank"
+    );
+  };
+
   return (
-    <section id="hero" className="w-full bg-white text-gray-900 py-16 md:py-24">
+    <section
+      id="hero"
+      className="w-full bg-white text-gray-900 py-16 md:py-24 mt-[50px] lg:mt-0"
+    >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12 px-6 ">
         {/* Left Content */}
         <div className="flex-1  space-y-6 ">
@@ -29,14 +44,15 @@ const Hero = () => {
 
           {/* Icons + Button */}
           <div className="flex items-center gap-6 pt-4">
-            <a
-              href="https://wa.me/923064002469"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+              // href="https://wa.me/923064002469"
+              // target="_blank"
+              // rel="noopener noreferrer"
+              onClick={handleWhatsAppClick}
               className="p-3 rounded-full bg-sky-500 hover:bg-sky-600 transition cursor-pointer shine overflow-hidden"
             >
               <FaWhatsapp size={22} className="text-white" />
-            </a>
+            </button>
 
             <a
               href="mailto:youremail@example.com"
@@ -45,11 +61,14 @@ const Hero = () => {
               <FaEnvelope size={22} className="text-white" />
             </a>
 
-            <button className="frutiger-button btn-bounce animate-slide-in shine overflow-hidden">
+            <Link
+              href={"#contact"}
+              className="frutiger-button btn-bounce animate-slide-in shine overflow-hidden"
+            >
               <span className="inner">
                 <span className="text ">Let’s Connect</span>
               </span>
-            </button>
+            </Link>
           </div>
         </div>
 
