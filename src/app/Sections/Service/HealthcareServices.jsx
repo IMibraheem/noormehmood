@@ -8,22 +8,19 @@ export default function HealthcareServices() {
       title: "Osteoarthritis",
       description:
         "Comprehensive treatment for joint pain and mobility improvement with specialized therapy programs.",
-      image:
-        "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&q=80",
+      image: "/service/OSTEOARTHRITIS.png",
     },
     {
       title: "Back Pain",
       description:
         "Expert care for chronic and acute back pain through evidence-based rehabilitation techniques.",
-      image:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+      image: "/service/backpain.png",
     },
     {
       title: "Frozen Shoulder",
       description:
         "Specialized therapy to restore shoulder mobility and reduce pain with targeted exercises.",
-      image:
-        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+      image: "/service/SHOULDER.png",
     },
     {
       title: "Cerebral Palsy (CP)",
@@ -43,15 +40,13 @@ export default function HealthcareServices() {
       title: "Sciatica",
       description:
         "Effective treatment for sciatic nerve pain through manual therapy and therapeutic exercises.",
-      image:
-        "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=800&q=80",
+      image: "/service/SCIATICA.png",
     },
     {
       title: "Neck Pain",
       description:
         "Relief from neck pain and stiffness with personalized treatment plans and postural correction.",
-      image:
-        "https://images.unsplash.com/photo-1527613426441-4da17471b66d?w=800&q=80",
+      image: "/service/PAIN.png",
     },
   ];
 
@@ -106,7 +101,7 @@ export default function HealthcareServices() {
         </div>
 
         {/* Optional CTA Section */}
-        <div className="mt-16 text-center bg-sky-500 rounded-2xl p-10 shadow-xl">
+        {/* <div className="mt-16 text-center bg-sky-500 rounded-2xl p-10 shadow-xl">
           <h3 className="text-3xl font-bold text-white mb-4">
             Ready to Start Your Recovery Journey?
           </h3>
@@ -120,7 +115,7 @@ export default function HealthcareServices() {
           >
             Book a Consultation
           </Link>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -25,17 +25,26 @@ const About = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
             Dedicated to Your Recovery
           </h2>
-          <p className="text-gray-600 mt-4 leading-relaxed">
+          <p className="text-gray-600  mt-4 leading-relaxed">
             I’m{" "}
-            <span className="font-semibold text-gray-900">Noor Mehmood</span>, a
-            compassionate physiotherapist with{" "}
-            <span className="text-cyan-500 font-semibold underline">
-              over 2 years of professional experience
-            </span>{" "}
-            in musculoskeletal and neurological rehabilitation. I specialize in
-            creating personalized treatment plans to help patients relieve pain,
-            improve mobility, and restore strength. My mission is to support
-            your journey to a healthier, more active lifestyle.
+            <span className="font-semibold text-gray-900">Noor Mehmood</span>,
+            an HCPC-registered physiotherapist with a Master’s in Sports
+            Rehabilitation and Soft Tissue Therapy from Middlesex University,
+            London, and a Doctor of Physical Therapy degree. I have treated
+            patients with a wide range of conditions, including fractures,
+            cerebral palsy, pre- and post-operative ACL injuries, ankle sprains,
+            scoliosis, frozen shoulder, sciatica, and spinal pain. Throughout my
+            career, I have collaborated closely with doctors, nurses, and senior
+            physiotherapists to provide patient-centred, evidence-based care
+            that empowers individuals to regain mobility, function, and
+            confidence. My practice combines manual therapy, functional exercise
+            programmes, and patient education to ensure recovery is effective
+            and sustainable. I have also contributed to education as a visiting
+            lecturer, mentoring students in anatomy, rehabilitation, and
+            clinical practice. I am passionate about making a meaningful
+            difference in people’s lives through tailored, goal-oriented
+            physiotherapy, and I thrive in environments that value
+            collaboration, accountability, and professional growth.
           </p>
 
           {/* Download CV Section */}

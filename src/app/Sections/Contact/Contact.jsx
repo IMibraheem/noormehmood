@@ -30,7 +30,8 @@ const Contact = () => {
     setIsLoading(true); // start loader
 
     const formDataToSend = {
-      access_key: "ae4c0fc5-e654-4e51-9e2f-bedd17f1532e", // your Web3Forms key
+      // access_key: "ae4c0fc5-e654-4e51-9e2f-bedd17f1532e", // your Web3Forms key
+      access_key: "23fdd0ce-edef-472e-8306-b426dd26ac4f", // your Web3Forms key
       ...formData,
     };
 

@@ -10,102 +10,72 @@ const Reviews = () => {
     {
       id: 1,
       name: "Brian Hardy",
-      role: "Web Designer",
+      role: "Osteoarthritis Patient",
       image:
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop",
       rating: 5,
       review:
-        "Outstanding service! The team exceeded all my expectations. Highly professional and dedicated.",
+        "After struggling with knee osteoarthritis for years, Noor’s therapy helped me regain mobility and reduce my pain. I can now walk comfortably again.",
     },
     {
       id: 2,
       name: "Mark Smith",
-      role: "Marketing Manager",
+      role: "Back Pain Patient",
       image:
         "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop",
       rating: 5,
       review:
-        "Incredible experience from start to finish. The quality of work is simply unmatched.",
+        "I suffered from chronic back pain for months. The personalized treatment plan worked wonders—my pain is almost gone and I feel stronger than ever.",
     },
     {
       id: 3,
       name: "Karis Smith",
-      role: "Product Designer",
+      role: "Frozen Shoulder Patient",
       image:
         "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop",
       rating: 5,
       review:
-        "Absolutely amazing! They delivered beyond what we imagined. Truly a game changer.",
+        "My frozen shoulder was affecting my daily life. Thanks to Noor’s exercises and guidance, I regained full movement in just a few months.",
     },
     {
       id: 4,
       name: "Nina Duncan",
-      role: "CEO & Founder",
+      role: "Mother of CP Child",
       image:
         "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop",
       rating: 5,
       review:
-        "Professional, creative, and efficient. Working with this team was a pleasure.",
+        "Noor worked with my child with cerebral palsy and the progress has been amazing. My child is more confident and independent now.",
     },
     {
       id: 5,
       name: "Alex Johnson",
-      role: "Software Engineer",
+      role: "Stroke Recovery Patient",
       image:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop",
       rating: 5,
       review:
-        "Top-notch quality and excellent communication. Would definitely recommend to others.",
+        "After my stroke, I thought I’d never regain my strength. Noor’s rehabilitation program gave me hope and today I’m able to walk on my own again.",
     },
     {
       id: 6,
       name: "Sarah Williams",
-      role: "Business Analyst",
+      role: "Sciatica Patient",
       image:
         "https://images.unsplash.com/photo-1489424731084-a5d8b219a5bb?w=150&h=150&fit=crop",
       rating: 5,
       review:
-        "Exceptional work! They understood our vision perfectly and brought it to life beautifully.",
+        "The sciatica pain in my leg was unbearable. Through targeted therapy sessions, I finally found relief and can sleep peacefully at night.",
     },
     {
       id: 7,
       name: "Michael Brown",
-      role: "Creative Director",
+      role: "Neck Pain Patient",
       image:
         "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop",
       rating: 5,
       review:
-        "Fantastic results! The attention to detail and creativity is remarkable.",
-    },
-    {
-      id: 8,
-      name: "Emma Davis",
-      role: "UX Researcher",
-      image:
-        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop",
-      rating: 5,
-      review:
-        "Very impressed with the professionalism and quality. They made the process seamless.",
-    },
-    {
-      id: 9,
-      name: "James Wilson",
-      role: "Project Manager",
-      image:
-        "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&h=150&fit=crop",
-      rating: 5,
-      review:
-        "Outstanding collaboration and results. They truly care about delivering excellence.",
-    },
-    {
-      id: 10,
-      name: "Olivia Taylor",
-      role: "Brand Strategist",
-      image:
-        "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop",
-      rating: 5,
-      review:
-        "Superb experience! Their expertise and dedication made all the difference.",
+        "My neck pain made it hard to work at a desk all day. Noor’s treatment plan and posture correction exercises have completely changed my life.",
     },
   ];
 

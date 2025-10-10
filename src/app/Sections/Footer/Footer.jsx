@@ -9,13 +9,14 @@ import {
   FaMapMarkerAlt,
   FaPhone,
   FaEnvelope,
+  FaLinkedin,
 } from "react-icons/fa";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "923064002469"; // Example: Pakistan number
+    const phoneNumber = "447538298959"; // Example: Pakistan number
     const message =
       "Hello! I would like to inquire about your physiotherapy services.";
     window.open(
@@ -39,22 +40,12 @@ const Footer = () => {
             </p>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/noor-mehmood-a593ab20b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-all duration-300 hover:scale-110"
               >
-                <FaFacebookF className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-all duration-300 hover:scale-110"
-              >
-                <FaInstagram className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="bg-white/10 hover:bg-white/20 p-3 rounded-full transition-all duration-300 hover:scale-110"
-              >
-                <FaTwitter className="w-5 h-5" />
+                <FaLinkedin className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -110,13 +101,9 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Get In Touch</h3>
             <div className="space-y-3">
-              <div className="flex items-start gap-3 text-blue-200">
-                <FaMapMarkerAlt className="w-5 h-5 mt-1 flex-shrink-0" />
-                <span>123 Health Street, Medical Plaza, Lahore, Pakistan</span>
-              </div>
               <div className="flex items-center gap-3 text-blue-200">
                 <FaPhone className="w-5 h-5 flex-shrink-0" />
-                <span>+92 300 1234567</span>
+                <span>+44 75 38298959</span>
               </div>
               <div className="flex items-center gap-3 text-blue-200">
                 <FaEnvelope className="w-5 h-5 flex-shrink-0" />

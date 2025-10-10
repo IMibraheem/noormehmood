@@ -7,7 +7,7 @@ import Link from "next/link";
 const Hero = () => {
   const handleWhatsAppClick = () => {
     // Replace with your actual WhatsApp number (include country code without + or spaces)
-    const phoneNumber = "923064002469"; // Example: Pakistan number
+    const phoneNumber = "447538298959"; // Example: Pakistan number
     const message =
       "Hello! I would like to inquire about your physiotherapy services.";
     window.open(
@@ -33,21 +33,15 @@ const Hero = () => {
           </h1>
           <p className="text-gray-600 max-w-md">
             I’m{" "}
-            <span className="font-semibold text-gray-900">Noor Mehmood</span>, a
-            professional physiotherapist with{" "}
-            <span className="text-sky-500 font-semibold underline">
-              2 years of experience{" "}
-            </span>
-            helping patients recover mobility, reduce pain, and restore
-            strength.
+            <span className="font-semibold text-gray-900">Noor Mehmood</span>,
+            an HCPC-registered physiotherapist with a Master’s in Sports
+            Rehabilitation and Physical Therapy, dedicated to helping patients
+            regain mobility, confidence, and long-term wellness.
           </p>
 
           {/* Icons + Button */}
           <div className="flex items-center gap-6 pt-4">
             <button
-              // href="https://wa.me/923064002469"
-              // target="_blank"
-              // rel="noopener noreferrer"
               onClick={handleWhatsAppClick}
               className="p-3 rounded-full bg-sky-500 hover:bg-sky-600 transition cursor-pointer shine overflow-hidden"
             >
